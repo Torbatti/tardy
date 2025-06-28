@@ -2,7 +2,7 @@ const std = @import("std");
 const builtin = @import("builtin");
 const assert = std.debug.assert;
 
-const zig_version = std.SemanticVersion{ .major = 0, .minor = 14, .patch = 0 };
+const zig_version = std.SemanticVersion{ .major = 0, .minor = 14, .patch = 1 };
 
 comptime {
     // Compare versions while allowing different pre/patch metadata.
